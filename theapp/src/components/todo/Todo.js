@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
-import { Alert, Card, Button, Form, Container } from "react-bootstrap";
+import { Card, Button, Form, Container } from "react-bootstrap";
 import "../todo/style.css";
 
 function Todo() {
