@@ -1,0 +1,10 @@
+/** @format */
+.my-nav {
+  height: 10rem;
+}
+
+.my-nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

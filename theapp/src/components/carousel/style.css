@@ -1,0 +1,15 @@
+/** @format */
+.carousel-style h3 {
+  color: rgb(74, 49, 214);
+}
+
+.carousel-style p {
+  color: rgb(104, 98, 229);
+}
+
+.visually-hidden {
+  color: blueviolet;
+}
+.carousel-control-next-icon {
+  color: blueviolet;
+}

@@ -1,0 +1,9 @@
+/** @format */
+
+.main-cards-group .card {
+  margin: 1rem;
+}
+
+.main-cards-group > .card + .card {
+  border-left: 2px solid blueviolet;
+}
