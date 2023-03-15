@@ -1,15 +1,20 @@
 /** @format */
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">VisualPlanner</Navbar.Brand>
+        <Navbar.Brand>
+          <Link to="/homepage">VisualPlanner</Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Planner</Nav.Link>
+            <Nav.Link href="#features">
+              <Link to="/planner">Planner</Link>
+            </Nav.Link>
             <Nav.Link href="#pricing">Meetings</Nav.Link>
           </Nav>
           <Nav>
