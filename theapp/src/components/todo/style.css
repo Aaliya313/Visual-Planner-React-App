@@ -1,0 +1,29 @@
+/** @format */
+
+.todos-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-form-item {
+  margin: 1rem;
+}
+
+#item1 {
+  max-width: 30rem;
+  height: 3.5rem;
+  border: 0.2rem solid #007bff;
+  border-radius: 3rem;
+}
+
+.todo-body .btn-primary {
+  margin: 0.1rem;
+}
