@@ -1,0 +1,8 @@
+/** @format */
+
+.planner-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
