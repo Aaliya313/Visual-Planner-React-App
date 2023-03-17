@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import { Button } from "react-bootstrap";
 import "../mainCards/style.css";
+import { Link } from 'react-router-dom';
 
 function MainCards() {
   return (
@@ -12,12 +13,13 @@ function MainCards() {
         <Card.Body>
           <Card.Title>Planner</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            A simple and easy way to organise your work.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <Button variant="outline-primary">Check it now!</Button>{" "}
+          <Link to="/planner">
+            <Button variant="outline-primary">Check it now!</Button>{" "}
+          </Link>
         </Card.Footer>
       </Card>
       <Card>

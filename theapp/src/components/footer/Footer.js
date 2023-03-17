@@ -12,12 +12,12 @@ function Footer() {
       variant="dark"
     >
       <Container>
-        <Navbar.Brand href="#home">VisualPlanner</Navbar.Brand>
+        <Navbar.Brand href="/">VisualPlanner</Navbar.Brand>
         <Navbar className="my-nav-links" id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Planner</Nav.Link>
-            <Nav.Link href="#pricing">Meetings</Nav.Link>
-            <Nav.Link href="#deets">Tasks</Nav.Link>
+            <Nav.Link href="/Planner">Planner</Nav.Link>
+            <Nav.Link href="/">Meetings</Nav.Link>
+            <Nav.Link href="/">Tasks</Nav.Link>
           </Nav>
         </Navbar>
       </Container>
