@@ -1,6 +1,8 @@
 /** @format */
 import Carousel from "react-bootstrap/Carousel";
 import "../carousel/style.css";
+import { Link } from 'react-router-dom';
+<Link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'></Link>
 
 function CarouselSection() {
   return (
@@ -8,7 +10,7 @@ function CarouselSection() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://thumbs.dreamstime.com/b/group-business-people-meeting-planning-41699625.jpg"
+          src="https://imageio.forbes.com/specials-images/dam/imageserve/1092571024/0x0.jpg?format=jpg&width=1200"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +21,7 @@ function CarouselSection() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://st.depositphotos.com/1003593/2242/i/450/depositphotos_22420341-stock-photo-time-to-plan.jpg"
+          src="https://www.onecalendar.nl/images/onecalendar.jpg"
           alt="Second slide"
         />
 
@@ -31,7 +33,7 @@ function CarouselSection() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cdn.xxl.thumbs.canstockphoto.com/planning-word-cloud-business-concept-pictures_csp25968080.jpg"
+          src="https://expertreviews.b-cdn.net/sites/expertreviews/files/2019/09/best_planners_primary.jpg"
           alt="Third slide"
         />
 

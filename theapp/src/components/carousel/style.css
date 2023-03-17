@@ -1,15 +1,30 @@
 /** @format */
+* {
+  font-family: raleway;
+}
 .carousel-style h3 {
-  color: rgb(74, 49, 214);
+  color: black;
+  margin:auto;
+  font-size: bolder;
+  background-color: white;
+  width: 10em;
+  
 }
 
 .carousel-style p {
-  color: rgb(104, 98, 229);
+  margin:auto;
+  color: black;
+  background-color: white;
+  width: 17.5em;
 }
 
 .visually-hidden {
-  color: blueviolet;
+  color: black;
 }
 .carousel-control-next-icon {
-  color: blueviolet;
+  color: black;
+}
+
+.d-block {
+  height: 40rem;
 }

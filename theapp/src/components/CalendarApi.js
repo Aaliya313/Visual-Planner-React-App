@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 
-const APIKEY =  '4472822361msh9dd056b547c78cap156b7djsn4bef76dfc82c';
+const APIKEY =  'cb12ad6ffdmshb45acf4175c9c96p1842c1jsnca50530ad104';
 const options = {
     method: 'get',
     url: 'https://world-time2.p.rapidapi.com/timezone/Europe/Paris',
