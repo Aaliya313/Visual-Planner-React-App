@@ -12,11 +12,16 @@ function Planner() {
     <div>
       <Header />
       <br />
+      <br />
+      
       <div className="planner-container">
         <CalendarComponent />
         <Todo />
       </div>
-
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <Footer />
     </div>
