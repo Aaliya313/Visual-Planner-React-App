@@ -1,6 +1,7 @@
 /** @format */
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "../header/style.css";
 
 function Header() {
   return (
