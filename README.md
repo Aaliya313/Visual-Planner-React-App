@@ -1,30 +1,8 @@
 <!-- @format -->
 
-# Visual Planner
+# ToWatchIt
 
-## Description
-
-This is a simple web application that allows you to create, view, update, and delete tasks in a planner. It is built using React, a popular javaScript library for building user interfaces.
-
-## Installation
-
-To install the appplication, clone the repository and run the following command in the terminal
-
-npm install
-
-This will install all the required dependencies.
-
-## Usage
-
-To start the application, run the following command in the terminal
-
-npm start
-
-This will start the application and open it in your default web browser at
-
-Once you have the app running you can add tasks
-
-![mainPhoto]
+![mainPhoto](./images/Application_Working.gif)
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -32,11 +10,15 @@ Once you have the app running you can add tasks
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+The main functionality of our application is adding the desired movies to your movie list and watch them in your free time.
+This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code found in script.js.
+The target audience of the application is the movie lovers.
 
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+Link to Deployed Site : https://thomasptharakan.github.io/ToWatchIt/
 
-Link to Deployed Site :
+```diff
+-The code requires you to add apikeys(omdbApiKey & youTubeApiKey ) to localstorage for the search function to work.
+```
 
 ## Requirements
 
@@ -54,7 +36,11 @@ Link to Deployed Site :
 
 - Meet good quality coding standards (indentation, scoping, naming).
 
-- Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+- Have a polished UI.
+
+- Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class/id naming conventions, indentation, quality comments, and so on).
+
+- Have a quality README (including a unique name, description, technologies used, screenshot, and link to the deployed application).
 
 ## The language used:
 
@@ -81,7 +67,8 @@ Link to Deployed Site :
 
 ## Credits
 
-- Calendar API
+- YouTube API
+- OMDB API
 
 ## Licence
 
