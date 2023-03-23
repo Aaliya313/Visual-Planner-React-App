@@ -1,7 +1,13 @@
+/** @format */
+
 .nav-link a {
-    color:white;
+  color: white;
 }
 
 .navbar-brand {
-    color:white;
+  color: white;
+}
+
+#my-links {
+  text-decoration: none;
 }

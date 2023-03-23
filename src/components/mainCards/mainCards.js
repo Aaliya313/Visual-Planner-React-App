@@ -16,7 +16,9 @@ function MainCards() {
         </Card.Body>
         <Card.Footer>
           <Link to="/planner">
-            <Button variant="outline-primary">Check it now!</Button>{" "}
+            <Button id="card-btn" variant="outline-primary">
+              Check it now!
+            </Button>{" "}
           </Link>
         </Card.Footer>
       </Card>
@@ -24,13 +26,17 @@ function MainCards() {
         <Card.Body>
           <Card.Title>Meetings</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{" "}
+            Now you can display all your meetings in the same place, sorted by
+            hour!
           </Card.Text>
         </Card.Body>
-        <Link to="/meetings">
-          <Button variant="outline-primary">Check it now!</Button>{" "}
-        </Link>
+        <Card.Footer>
+          <Link to="/meetings">
+            <Button id="card-btn" variant="outline-primary">
+              Check it now!
+            </Button>{" "}
+          </Link>
+        </Card.Footer>
       </Card>
     </CardGroup>
   );

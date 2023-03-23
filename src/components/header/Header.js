@@ -8,16 +8,22 @@ function Header() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand>
-          <Link to="/">VisualPlanner</Link>
+          <Link id="my-links" to="/">
+            VisualPlanner
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link>
-              <Link to="/planner">Planner</Link>
+              <Link id="my-links" to="/planner">
+                Planner
+              </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/meetings">Meetings</Link>
+              <Link id="my-links" to="/meetings">
+                Meetings
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
