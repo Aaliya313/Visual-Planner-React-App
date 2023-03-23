@@ -1,8 +1,11 @@
 /** @format */
 import Carousel from "react-bootstrap/Carousel";
 import "../carousel/style.css";
-import { Link } from 'react-router-dom';
-<Link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'></Link>
+import { Link } from "react-router-dom";
+<Link
+  href="https://fonts.googleapis.com/css?family=Raleway"
+  rel="stylesheet"
+></Link>;
 
 function CarouselSection() {
   return (
@@ -15,7 +18,6 @@ function CarouselSection() {
         />
         <Carousel.Caption>
           <h3>Too many tasks?</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,7 +29,6 @@ function CarouselSection() {
 
         <Carousel.Caption>
           <h3>No need to worry anymore!</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -39,9 +40,6 @@ function CarouselSection() {
 
         <Carousel.Caption>
           <h3>You got to the right place!</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
