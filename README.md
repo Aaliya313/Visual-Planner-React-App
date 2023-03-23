@@ -4,15 +4,18 @@
 
 ![mainPhoto](./utils/VisualPlanner21.png)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+## Table of contents
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+1. [Description](#description)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Requirements](#requirements)
+6. [Technologies](#technologies)
+7. [Authors](#authors)
+8. [Credits](#credits)
+9. [License](#licence)
+10. [Deployed-website](#deployed-website)
 
 ## Description
 
@@ -115,7 +118,7 @@ The app should now be running on http://localhost:3000.
 
 - ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-- ![World Time API](https://rapidapi.com/brianiswu/api/world-time2/)
+- [World Time API](https://rapidapi.com/brianiswu/api/world-time2/)
 
 ## Licence
 
@@ -123,4 +126,4 @@ The app should now be running on http://localhost:3000.
 
 ## Deployed website:
 
-![VisualPlanner](https://visual-planner-21.netlify.app/)
+[VisualPlanner](https://visual-planner-21.netlify.app/)
