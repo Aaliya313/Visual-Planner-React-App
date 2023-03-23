@@ -64,20 +64,22 @@ function Todo({ hours, minutes, seconds }) {
 
   return (
     <div className="todo-app">
-      <h1>Todo App</h1>
-      <form onSubmit={handleNewTodoSubmit}>
+      <h1>Your Todos!</h1>
+      <form className="todo-form" onSubmit={handleNewTodoSubmit}>
         <input
           type="text"
           placeholder="Enter a new todo item"
           value={newTodo}
           onChange={handleNewTodoChange}
         />
-        <button type="submit">Add</button>
+        <button id="add-btn" type="submit">
+          Add your TODO!
+        </button>
       </form>
-      <ul>
+      <ul className="todos-list">
         {todos.map((todo) => (
           <div>
-            <Card key={todo.id}>
+            <Card id="todo-card" key={todo.id}>
               <Card.Text>
                 {todo.hours}:{todo.minutes}:{todo.seconds}
               </Card.Text>
