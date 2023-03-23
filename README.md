@@ -99,7 +99,7 @@ The app should now be running on http://localhost:3000.
 
 ## Authors
 
-- [Aliya ladha](https://github.com/)
+- [Aaliya ladha](https://github.com/Aaliya313/)
 - [Oluwatayo Hassan](https://github.com/BABATEES)
 - [Tina Georgescu](https://github.com/cristinabadea)
 - [Raji Labana](https://github.com/lotussi)
