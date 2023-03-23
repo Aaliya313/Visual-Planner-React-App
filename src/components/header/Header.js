@@ -16,7 +16,9 @@ function Header() {
             <Nav.Link>
               <Link to="/planner">Planner</Link>
             </Nav.Link>
-            <Nav.Link href="/meeting">Meetings</Nav.Link>
+            <Nav.Link>
+              <Link to="/meetings">Meetings</Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

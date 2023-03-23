@@ -1,0 +1,79 @@
+/** @format */
+
+.meeting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2rem solid #212529;
+  background-color: rgb(150, 182, 241);
+}
+
+.meeting-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  width: 30rem;
+}
+
+.meeting-form :first-child {
+  width: 25rem;
+}
+.form-item {
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid blue;
+}
+
+.form-btn {
+  max-width: 15rem;
+  background-color: darkblue;
+  color: white;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+
+.meeting-card {
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.61);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid blue;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.btn-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#btn {
+  display: block;
+  max-width: 8rem;
+  background-color: darkblue;
+  color: white;
+  font-weight: 700;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  margin: 0.5rem;
+  align-self: center;
+  font-size: 0.7rem;
+}
+
+#root > div > div > div > div > div {
+  border: none;
+}
+
+.btn-parent .remove-btn {
+  background-color: red !important;
+}
+#meeting-text {
+  display: block;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+}

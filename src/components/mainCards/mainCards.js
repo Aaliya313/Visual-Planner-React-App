@@ -28,7 +28,7 @@ function MainCards() {
             additional content.{" "}
           </Card.Text>
         </Card.Body>
-        <Link to="/meeting">
+        <Link to="/meetings">
           <Button variant="outline-primary">Check it now!</Button>{" "}
         </Link>
       </Card>
